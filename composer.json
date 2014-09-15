@@ -1,6 +1,8 @@
 {
     "name": "bacon/bacon-controller",
     "description": "BaconController is a replacment for ZF2 controllers with testability in mind.",
+    "license" : "BSD-2-Clause",
+    "homepage": "https://github.com/Bacon/BaconController",
     "require": {
         "php": ">=5.3.0",
         "zendframework/zend-console": "~2.3",
