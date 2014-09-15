@@ -2,8 +2,8 @@
 return [
     'controllers' => [
         'abstract_factories' => [
-            'Ajasta\Core\Mvc\Controller\AbstractConsoleControllerBridgeFactory',
-            'Ajasta\Core\Mvc\Controller\AbstractHttpControllerBridgeFactory',
+            'BaconController\Mvc\Controller\AbstractConsoleControllerBridgeFactory',
+            'BaconController\Mvc\Controller\AbstractHttpControllerBridgeFactory',
         ],
     ],
     'console_controllers' => [],
