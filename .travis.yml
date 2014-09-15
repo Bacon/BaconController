@@ -11,7 +11,7 @@ before_script:
 
 script:
  - php vendor/bin/phpcs --standard=psr2 --encoding=utf-8 src/
- - php vendor/bin/phpunit --bootstrap tests/bootstrap.php --configuration phpunit.xml.travis tests
+ - php vendor/bin/phpunit --configuration phpunit.xml.travis tests
 
 after_script:
  - php vendor/bin/coveralls -n

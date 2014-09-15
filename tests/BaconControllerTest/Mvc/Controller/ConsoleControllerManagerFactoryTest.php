@@ -6,7 +6,7 @@ use PHPUnit_Framework_TestCase as TestCase;
 use Zend\ServiceManager\ServiceManager;
 
 /**
- * @coversDefaultClass BaconController\Mvc\Controller\ConsoleontrollerManagerFactory
+ * @coversDefaultClass BaconController\Mvc\Controller\ConsoleControllerManagerFactory
  * @covers ::<!public>
  */
 class ConsoleControllerManagerFactoryTest extends TestCase
